@@ -1,6 +1,6 @@
 cask "orzma" do
-  version "0.1.0"
-  sha256 "94f2bb27bb794712bb02412b8faafb1ad6a51caed9259a21e4629d4e75ecfd89"
+  version "0.2.0"
+  sha256 "0f02801a3314edaaa10b827bc7b2b9fb4650101e3a54e554a0ee234f1464c339"
 
   url "https://github.com/not-elm/orzma/releases/download/v#{version}/orzma-#{version}-arm64.zip"
   name "orzma"
@@ -9,7 +9,6 @@ cask "orzma" do
 
   depends_on arch: :arm64
   depends_on macos: ">= :big_sur"
-  depends_on formula: "tmux"
 
   app "orzma.app"
   binary "#{appdir}/orzma.app/Contents/Resources/orzbrowser"
