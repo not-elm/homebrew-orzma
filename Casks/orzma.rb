@@ -1,8 +1,8 @@
 cask "orzma" do
-  version "0.2.1"
-  sha256 "8f3378070afaf5246f6df8331115f47aff6e6800186cce60e942e7fe85a913fa"
+  version "0.3.0"
+  sha256 "f1ecbfc820691a2bf2aeb8769758bf024b3c85c8535d67d8f21d1b55ca9c5300"
 
-  url "https://github.com/not-elm/orzma/releases/download/v#{version}/orzma-#{version}-arm64.zip"
+  url "https://github.com/not-elm/orzma/releases/download/v#{version}/orzma-#{version}-arm64.dmg"
   name "orzma"
   desc "Terminal multiplexer as a native GUI app"
   homepage "https://github.com/not-elm/orzma"
