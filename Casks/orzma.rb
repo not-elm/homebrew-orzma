@@ -1,6 +1,6 @@
 cask "orzma" do
-  version "0.4.0"
-  sha256 "9ff52cf9d7e14276c088828b735e59950d0ded76ffec60a5e150c102b2f52c7b"
+  version "0.5.0"
+  sha256 "05b35ef5b5959ad5b0b94894f57679fc55d41e9081546f535c61b65a99206474"
 
   url "https://github.com/not-elm/orzma/releases/download/v#{version}/orzma-#{version}-arm64.dmg"
   name "orzma"
